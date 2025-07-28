@@ -1,0 +1,14 @@
+p{
+    color: black;
+}
+h1{
+    color: blueviolet;
+}
+a{
+    color: black;
+}
+.carte{
+    background-color: blueviolet;
+    padding: 120px;
+    border-radius: 0px;
+}
