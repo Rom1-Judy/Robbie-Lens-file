@@ -1,14 +1,151 @@
-p{
-    color: black;
-}
 h1{
+    color: rgb(43, 168, 226);
+    font-size: 45px;
+}
+ul{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+}   
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1em;
+}
+.title{
+    font-size: 20px;
+    margin-left: 800px;
+}
+header{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.piloting{ /*utilisé pour le bouton portfolio sur l'Acceuil*/
+    position: absolute;
+    right: 30px;
+    top: 45px;  
+    height: 40px;
+}
+.piloting2{/*utilisé pour le bouton A porpos*/
+    position: absolute;
+    right: 110px;
+    top: 45px;
+    height: 40px;
+}
+.piloting3{ /*utilisé pour le bouton Acceuil*/
+    position: absolute;
+    right: 190px;
+    top: 45px;
+    height: 40px;
+} 
+.bottomlogoright{/*utilisé pour le logo twitter*/
+    position: absolute;
+    bottom: 10px;
+    right: 50px;
+    height: 40px;
+}
+.bottomlogoright2{ /*utlisé pour le logo instagram*/
+    position: absolute;
+    bottom: 10px;
+    right: 120px;
+    height: 40px;
+}
+a{ /*utilisé pour les bouton de pilotage*/
+    color: black; 
+    text-decoration: none;
+}
+.important{ /*faire ressortir des mots clés dans une phrase*/
     color: blueviolet;
 }
-a{
-    color: black;
+.information{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    padding: 60px 75px;
+    margin-top: 30px; /*concerne le positionnement à partir du haut du site*/    
+    background-color: rgb(2, 2, 48);
 }
-.carte{
+.information img{
+    max-width: 100%; /*concerne la taille d'une image*/
+    max-height: 100%;/*concerne la taille d'une image*/
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-right: 25px;
+    text-align: left;
+    background-color: rgd(2,2,48);
+}p{
+    color: white;
+    font-size: 20px;
+}
+button{
+    color:white;
     background-color: blueviolet;
-    padding: 120px;
-    border-radius: 0px;
+    padding:15px 30px;   
+    border-radius: 10px;
+    border:none;
+    display: inline-block;
+    font: 18px;
+}
+.informationap{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: rgb(2, 2, 48);
+    height: 810px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.service{
+    color: white;
+    font-size: 20px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.border{
+    border-bottom: 50px violet solid;
+    border-bottom-width: 1px;
+    border-right: 50px violet solid;
+    border-right-width: 1px; 
+}
+button:hover{
+    opacity: 0.5;
+}
+.piloting:hover{
+    text-decoration: underline;
+}
+.piloting2:hover{
+    text-decoration: underline;
+}
+.piloting3:hover{
+    text-decoration: underline;
+}
+.bottomlogoleft:hover{
+    opacity: 0.5;
+}
+.bottomlogoright:hover{
+    opacity: 0.5;
+}
+.bottomlogoright2:hover{
+    opacity: 0.5;
+}
+.topleft:hover{
+    opacity: 0.5;
+}
+.lastproject{
+    font-size: 20px;
+    margin-left: 800px;
+}
+.bottomlogoleft{/*utilié pour le logo Robbie Lens*/
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+    height: 40px;
+}
+footer{
+    background-color: red;
 }
