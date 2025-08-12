@@ -15,39 +15,29 @@ p{
     margin-left: 800px;
 }
 header{
-    margin-top: 30px;
-    margin-left: 30px;
+    padding: 20px;
+}
+.topleft{
+    height: 40px;
 }
 .piloting{ /*utilisé pour le bouton portfolio sur l'Acceuil*/
     position: absolute;
     right: 30px;
-    top: 45px;  
+    top: 35px;  
     height: 40px;
 }
 .piloting2{/*utilisé pour le bouton A porpos*/
     position: absolute;
     right: 110px;
-    top: 45px;
+    top: 35px;
     height: 40px;
 }
 .piloting3{ /*utilisé pour le bouton Acceuil*/
     position: absolute;
     right: 190px;
-    top: 45px;
+    top: 35px;
     height: 40px;
 } 
-.bottomlogoright{/*utilisé pour le logo twitter*/
-    position: absolute;
-    bottom: 10px;
-    right: 50px;
-    height: 40px;
-}
-.bottomlogoright2{ /*utlisé pour le logo instagram*/
-    position: absolute;
-    bottom: 10px;
-    right: 120px;
-    height: 40px;
-}
 a{ /*utilisé pour les bouton de pilotage*/
     color: black; 
     text-decoration: none;
@@ -55,27 +45,7 @@ a{ /*utilisé pour les bouton de pilotage*/
 .important{ /*faire ressortir des mots clés dans une phrase*/
     color: blueviolet;
 }
-.information{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 400px;
-    padding: 60px 75px;
-    margin-top: 30px; /*concerne le positionnement à partir du haut du site*/    
-    background-color: rgb(2, 2, 48);
-}
-.information img{
-    max-width: 100%; /*concerne la taille d'une image*/
-    max-height: 100%;/*concerne la taille d'une image*/
-}
-.text{
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    margin-right: 25px;
-    text-align: left;
-    background-color: rgd(2,2,48);
-}p{
+p{
     color: white;
     font-size: 20px;
 }
@@ -83,34 +53,10 @@ button{
     color:white;
     background-color: blueviolet;
     padding:15px 30px;   
-    border-radius: 10px;
+    border-radius: 50px;
     border:none;
     display: inline-block;
     font: 18px;
-}
-.informationap{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    background-color: rgb(2, 2, 48);
-    height: 810px;
-    margin-top: 30px;
-    justify-content: center;
-    align-items: center;
-}
-.service{
-    color: white;
-    font-size: 20px;
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.border{
-    border-bottom: 50px violet solid;
-    border-bottom-width: 1px;
-    border-right: 50px violet solid;
-    border-right-width: 1px; 
 }
 button:hover{
     opacity: 0.5;
@@ -136,10 +82,6 @@ button:hover{
 .topleft:hover{
     opacity: 0.5;
 }
-.lastproject{
-    font-size: 20px;
-    margin-left: 800px;
-}
 .bottomlogoleft{/*utilié pour le logo Robbie Lens*/
     position: absolute;
     bottom: 10px;
@@ -148,4 +90,77 @@ button:hover{
 }
 footer{
     background-color: red;
+    padding: 20px;
+}
+.bottomlogoright{/*utilisé pour le logo twitter*/
+    position: absolute;
+    bottom: 10px;
+    right: 50px;
+    height: 40px;
+}
+.bottomlogoright2{ /*utlisé pour le logo instagram*/
+    position: absolute;
+    right: 120px;
+    height: 40px;
+}
+body{
+    margin: 0px;
+}
+.mainscreen{
+    background-color: rgb(2, 2, 48);
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    height: 500px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-right: 25px;
+    text-align: left;
+    background-color: rgd(2,2,48);
+}
+.mainscreen img{
+    max-width: 100%; /*concerne la taille d'une image*/
+    max-height: 100%;/*concerne la taille d'une image*/
+}
+.lastproject{
+    background-color: red;
+    align-items: center; 
+    justify-content: center;
+    margin-top: 30px;
+    height: 400px;
+    flex-direction: row;
+}
+.service{
+    color: white;
+    font-size: 20px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.mainscreen2{
+    background-color: rgb(2, 2, 48);
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    flex-direction: column;
+}
+.border2{
+    border-bottom: 50px violet solid;
+    border-bottom-width: 1px;
+    border-right: 50px violet solid;
+    border-right-width: 1px; 
+}
+.border{
+    background-color: red;
+    border-bottom: 50px violet solid;
 }
