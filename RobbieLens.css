@@ -52,11 +52,11 @@ p{
 button{
     color:white;
     background-color: blueviolet;
-    padding:15px 30px;   
+    padding:30px 30px;   
     border-radius: 50px;
     border:none;
     display: inline-block;
-    font: 18px;
+    font: 30px;
 }
 button:hover{
     opacity: 0.5;
@@ -82,26 +82,9 @@ button:hover{
 .topleft:hover{
     opacity: 0.5;
 }
-.bottomlogoleft{/*utilié pour le logo Robbie Lens*/
+.bottom{
     position: absolute;
     bottom: 10px;
-    left: 50px;
-    height: 40px;
-}
-footer{
-    background-color: red;
-    padding: 20px;
-}
-.bottomlogoright{/*utilisé pour le logo twitter*/
-    position: absolute;
-    bottom: 10px;
-    right: 50px;
-    height: 40px;
-}
-.bottomlogoright2{ /*utlisé pour le logo instagram*/
-    position: absolute;
-    right: 120px;
-    height: 40px;
 }
 body{
     margin: 0px;
@@ -133,7 +116,7 @@ body{
     align-items: center; 
     justify-content: center;
     margin-top: 30px;
-    height: 400px;
+    height: 2000px;
     flex-direction: row;
 }
 .service{
@@ -143,7 +126,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: left;
 }
 .mainscreen2{
     background-color: rgb(2, 2, 48);
@@ -151,16 +134,82 @@ body{
     text-align: left;
     justify-content: center;
     align-items: center;
-    height: 800px;
     flex-direction: column;
-}
-.border2{
-    border-bottom: 50px violet solid;
-    border-bottom-width: 1px;
-    border-right: 50px violet solid;
-    border-right-width: 1px; 
+    padding-top: 30px;
 }
 .border{
-    background-color: red;
-    border-bottom: 50px violet solid;
+    border-bottom: 50px blueviolet solid;
+    border-bottom-width: 1px;
+    border-right: 50px blueviolet solid;
+    border-right-width: 1px; 
+    padding: 30px;
+}
+.portfolioteck{
+    margin-top: 100px;    
+}
+.présentation{
+    margin-top: 200px;
+    font-size: 20px;
+    border-collapse: collapse;
+    color: white;
+    margin-bottom: 100px;
+}
+caption{
+    margin-bottom: 70px;
+    font-size: 25px;
+}
+td{
+    border: 1px blueviolet solid;
+    text-align: center;
+    padding-bottom: 75px;
+    padding-top: 75px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+th{
+    border: 1px blueviolet solid;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+footer {
+    display: flex; /* Met tout sur une seule ligne */
+    justify-content: space-between; /* Logo à gauche, logos réseaux à droite */
+    align-items: center; /* Aligne verticalement */
+    padding: 20px;
+}
+
+footer img {
+    width: 100%;  /* Taille identique pour tous les logos */
+    height: 40px;
+    object-fit: contain; /* Évite de déformer les images */
+}
+
+footer div {
+    display: flex; /* Aligne les logos de droite sur une ligne */
+    gap: 20px; /* Espace entre les logos de droite */
+}
+.insta:hover{
+    opacity: 0.5;
+}
+.twitter:hover{
+    opacity: 0.5;
+}
+.visual:hover{
+    opacity: 0.5;
+}
+.rotate{
+    transform: rotate(90deg);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.container img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
